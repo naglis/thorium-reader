@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} zadetek(kov)",
+        "founds": "{{- count}} zadetek(kov)",
         "input": "besedilo, ki se ujema z",
         "next": "Naslednje",
         "notFound": "ni zadetkov",

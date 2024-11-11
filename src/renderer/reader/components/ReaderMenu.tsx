@@ -1166,7 +1166,7 @@ const AnnotationList: React.FC<{ annotationUUIDFocused: string, resetAnnotationU
                             <AlertDialog.Content className={stylesAlertModals.AlertDialogContent}>
                                 <AlertDialog.Title className={stylesAlertModals.AlertDialogTitle}>{__("dialog.deleteAnnotations")}</AlertDialog.Title>
                                 <AlertDialog.Description className={stylesAlertModals.AlertDialogDescription}>
-                                    {__("dialog.deleteAnnotationsText", { annotationListLength: annotationListFiltered.length })}
+                                    {__("dialog.deleteAnnotationsText", { count: annotationListFiltered.length })}
                                 </AlertDialog.Description>
                                 <div className={stylesAlertModals.AlertDialogButtonContainer}>
                                     <AlertDialog.Cancel asChild>

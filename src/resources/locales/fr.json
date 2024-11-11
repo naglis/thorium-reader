@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} correspondance(s)",
+        "founds": "{{- count}} correspondance(s)",
         "input": "Texte à trouver",
         "next": "Suivant",
         "notFound": "Auncune correspondance",

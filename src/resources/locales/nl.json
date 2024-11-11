@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} overeenkomst(en)",
+        "founds": "{{- count}} overeenkomst(en)",
         "input": "zoektekst",
         "next": "Volgende",
         "notFound": "geen overeenkomst",

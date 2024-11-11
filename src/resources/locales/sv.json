@@ -124,9 +124,9 @@
   "dialog": {
     "annotations": {
       "descAuthor": "av {{- author}}",
-      "descList": "{{- nb}} anteckning(ar) av {{- creator}} kommer att kopplas till {{- title}} {{- author}}",
-      "descNewer": "{{- nb}} nyare versioner av de här anteckningarna är redan kopplade till publikationen.",
-      "descOlder": "{{- nb}} äldre versioner av de här anteckningarna är redan kopplade till publikationen.",
+      "descList": "{{- count}} anteckning(ar) av {{- creator}} kommer att kopplas till {{- title}} {{- author}}",
+      "descNewer": "{{- count}} nyare versioner av de här anteckningarna är redan kopplade till publikationen.",
+      "descOlder": "{{- count}} äldre versioner av de här anteckningarna är redan kopplade till publikationen.",
       "descTitle": "Anteckningarnas titel: ",
       "importAll": "Importera alla anteckningar",
       "importWithoutConflict": "Importera anteckningar utan konflikter",
@@ -134,7 +134,7 @@
     },
     "cancel": "Avbryt",
     "deleteAnnotations": "Radera anteckningar?",
-    "deleteAnnotationsText": "Vill du radera {{- annotationListLength}} anteckning(ar)?",
+    "deleteAnnotationsText": "Vill du radera {{- count}} anteckning(ar)?",
     "deleteFeed": "Vill du ta bort den här katalogen?",
     "deletePublication": "Vill du ta bort den här publikationen?",
     "import": "Vill du importera följande filer:",
@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} träff(ar)",
+        "founds": "{{- count}} träff(ar)",
         "input": "text att söka på",
         "next": "Nästa",
         "notFound": "inga träffar",

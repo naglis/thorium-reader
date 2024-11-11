@@ -124,9 +124,9 @@
   "dialog": {
     "annotations": {
       "descAuthor": "de {{- author}}",
-      "descList": "{{- nb}} anotações de {{- creator}} serão associadas a {{- title}} {{- author}}",
-      "descNewer": "{{- nb}} versões mais recentes destas anotações já estão associadas à publicação.",
-      "descOlder": "{{- nb}} versões mais antigas destas anotações já estão associadas à publicação..",
+      "descList": "{{- count}} anotações de {{- creator}} serão associadas a {{- title}} {{- author}}",
+      "descNewer": "{{- count}} versões mais recentes destas anotações já estão associadas à publicação.",
+      "descOlder": "{{- count}} versões mais antigas destas anotações já estão associadas à publicação..",
       "descTitle": "Título do conjunto de anotações:",
       "importAll": "Importar todas as anotações",
       "importWithoutConflict": "Importar anotações sem conflitos",
@@ -134,7 +134,7 @@
     },
     "cancel": "Cancelar",
     "deleteAnnotations": "Eliminar anotações?",
-    "deleteAnnotationsText": "Quer eliminar {{- annotationListLength}} anotações?",
+    "deleteAnnotationsText": "Quer eliminar {{- count}} anotações?",
     "deleteFeed": "Eliminar catálogo?",
     "deletePublication": "Eliminar documento?",
     "import": "Confirmar importação:",
@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} correspondência(s)",
+        "founds": "{{- count}} correspondência(s)",
         "input": "texto a encontrar",
         "next": "Seguinte",
         "notFound": "sem correspondências",

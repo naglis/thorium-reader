@@ -67,13 +67,13 @@ export const ImportAnnotationsDialog: React.FC<React.PropsWithChildren<{ winId: 
                     <AlertDialog.Description className={stylesAlertModals.AlertDialogDescription} style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
                         <span>{title ? `${__("dialog.annotations.descTitle")}${title}` : ""}</span>
                         <span>{annotationsList.length ? __("dialog.annotations.descList", {
-                            nb: annotationsList.length,
+                            count: annotationsList.length,
                             creator: creatorNameList.length ? creatorNameList.join(", ") : "\"\"",
                             title: publicationTitle,
                             author: authors[0] ? __("dialog.annotations.descAuthor", { author: authors[0] }) : "",
                         }) : <></>}</span>
-                        <span>{annotationsConflictListNewer.length ? __("dialog.annotations.descNewer", { nb: annotationsConflictListNewer.length }) : <></>}</span>
-                        <span>{annotationsConflictListOlder.length ? __("dialog.annotations.descOlder", { nb: annotationsConflictListOlder.length }) : <></>}</span>
+                        <span>{annotationsConflictListNewer.length ? __("dialog.annotations.descNewer", { count: annotationsConflictListNewer.length }) : <></>}</span>
+                        <span>{annotationsConflictListOlder.length ? __("dialog.annotations.descOlder", { count: annotationsConflictListOlder.length }) : <></>}</span>
                     </AlertDialog.Description>
                     <div className={stylesAlertModals.AlertDialogButtonContainer}>
                         <AlertDialog.Cancel asChild onClick={() => dispatch(annotationActions.importConfirmOrAbort.build("abort"))}>
