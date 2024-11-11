@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} träff(ar)",
+        "founds": "{{- count}} träff(ar)",
         "input": "text att söka på",
         "next": "Nästa",
         "notFound": "inga träffar",

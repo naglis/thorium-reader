@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} 個匹配",
+        "founds": "{{- count}} 個匹配",
         "input": "輸入搜索文字",
         "next": "後一個",
         "notFound": "無匹配",

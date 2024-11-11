@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} Fundstelle(n)",
+        "founds": "{{- count}} Fundstelle(n)",
         "input": "Text suchen",
         "next": "Nächste",
         "notFound": "keine Treffer",

@@ -124,9 +124,12 @@
   "dialog": {
     "annotations": {
       "descAuthor": "of {{- author}}",
-      "descList": "{{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}",
-      "descNewer": "{{- nb}} newer versions of these notes are already associated with the publication.",
-      "descOlder": "{{- nb}} older versions of these notes are already associated with the publication.",
+      "descList": "{{- count}} note from {{- creator}} will be associated with {{- title}} {{- author}}",
+      "descList_plural": "{{- count}} notes from {{- creator}} will be associated with {{- title}} {{- author}}",
+      "descNewer": "{{- count}} newer version of these notes are already associated with the publication.",
+      "descNewer_plural": "{{- count}} newer versions of these notes are already associated with the publication.",
+      "descOlder": "{{- count}} older version of these notes are already associated with the publication.",
+      "descOlder_plural": "{{- count}} older versions of these notes are already associated with the publication.",
       "descTitle": "Annotation Set Title: ",
       "importAll": "Import all notes",
       "importWithoutConflict": "Import notes without conflict",
@@ -134,7 +137,8 @@
     },
     "cancel": "Cancel",
     "deleteAnnotations": "Delete annotations?",
-    "deleteAnnotationsText": "Do you want to delete {{- annotationListLength}} annotation(s)?",
+    "deleteAnnotationsText": "Do you want to delete {{- count}} annotation?",
+    "deleteAnnotationsText_plural": "Do you want to delete {{- count}} annotations?",
     "deleteFeed": "Delete catalog?",
     "deletePublication": "Delete publication?",
     "import": "Confirm import:",
@@ -426,7 +430,8 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} match(es)",
+        "founds": "{{- count}} match",
+        "founds_plural": "{{- count}} matches",
         "input": "text to match",
         "next": "Next",
         "notFound": "no matches",

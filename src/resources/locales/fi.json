@@ -426,7 +426,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} osuma(a)",
+        "founds": "{{- count}} osuma(a)",
         "input": "etsittävä teksti",
         "next": "Seuraava",
         "notFound": "ei osumia",
