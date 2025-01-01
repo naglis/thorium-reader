@@ -121,9 +121,9 @@
   "dialog": {
     "annotations": {
       "descAuthor": "de {{- author}}",
-      "descList": "{{- nb}} note(s) de {{- creator}} sera associé avec {{- title}} {{- author}}",
-      "descNewer": "{{- nb}} nouvelle version(s) de ces notes sont déjà associées à cette publication.",
-      "descOlder": "{{- nb}} ancienne version(s) de ces notes sont déjà associées à cette publication.",
+      "descList": "{{- count}} note(s) de {{- creator}} sera associé avec {{- title}} {{- author}}",
+      "descNewer": "{{- count}} nouvelle version(s) de ces notes sont déjà associées à cette publication.",
+      "descOlder": "{{- count}} ancienne version(s) de ces notes sont déjà associées à cette publication.",
       "descTitle": "Titre de la liste : ",
       "importAll": "Importer toute les notes",
       "importWithoutConflict": "Importer les notes sans conflit",
@@ -131,7 +131,7 @@
     },
     "cancel": "Annuler",
     "deleteAnnotations": "Supprimer la note",
-    "deleteAnnotationsText": "Voulez-vous supprimer {{- annotationListLength}} note(s) ?",
+    "deleteAnnotationsText": "Voulez-vous supprimer {{- count}} note(s) ?",
     "deleteFeed": "Supprimer ce catalogue ?",
     "deletePublication": "Supprimer ce livre ?",
     "import": "Confirmer l'ajout :",
@@ -424,7 +424,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} correspondance(s)",
+        "founds": "{{- count}} correspondance(s)",
         "input": "Texte à trouver",
         "next": "Suivant",
         "notFound": "Auncune correspondance",

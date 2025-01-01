@@ -121,9 +121,9 @@
   "dialog": {
     "annotations": {
       "descAuthor": "of {{- author}}",
-      "descList": "{{- nb}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}",
-      "descNewer": "{{- nb}} newer version(s) of these notes are already associated with the publication.",
-      "descOlder": "{{- nb}} older version(s) of these notes are already associated with the publication.",
+      "descList": "{{- count}} note(s) from {{- creator}} will be associated with {{- title}} {{- author}}",
+      "descNewer": "{{- count}} newer version(s) of these notes are already associated with the publication.",
+      "descOlder": "{{- count}} older version(s) of these notes are already associated with the publication.",
       "descTitle": "Title of the set: ",
       "importAll": "Import all notes",
       "importWithoutConflict": "Import notes without conflict",
@@ -131,7 +131,7 @@
     },
     "cancel": "Cancel",
     "deleteAnnotations": "Delete note?",
-    "deleteAnnotationsText": "Do you want to delete {{- annotationListLength}} note(s)?",
+    "deleteAnnotationsText": "Do you want to delete {{- count}} note(s)?",
     "deleteFeed": "Delete catalog?",
     "deletePublication": "Delete publication?",
     "import": "Confirm import:",
@@ -424,7 +424,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} match(es)",
+        "founds": "{{- count}} match(es)",
         "input": "text to match",
         "next": "Next",
         "notFound": "no matches",
