@@ -123,9 +123,9 @@
     "annotations": {
       "descAuthor": "{{- author}}",
       "descCreator": "",
-      "descList": "{{- nb}} pastaba(-os, -ų), kurias sukūrė {{- creator}}, bus susietos su {{- author}} leidiniu {{- title}}",
-      "descNewer": "{{- nb}} naujesnė(-s, -ių) šių pastabų versija(-os, -ų) jau susieta(-os) su leidiniu.",
-      "descOlder": "{{- nb}} senesnė(-s, -ių) šių pastabų versija(-os, -ų) jau susieta(-os) su leidiniu.",
+      "descList": "{{- count}} pastaba(-os, -ų), kurias sukūrė {{- creator}}, bus susietos su {{- author}} leidiniu {{- title}}",
+      "descNewer": "{{- count}} naujesnė(-s, -ių) šių pastabų versija(-os, -ų) jau susieta(-os) su leidiniu.",
+      "descOlder": "{{- count}} senesnė(-s, -ių) šių pastabų versija(-os, -ų) jau susieta(-os) su leidiniu.",
       "descTitle": "Pastabų rinkinio pavadinimas:",
       "importAll": "Importuoti visas pastabas",
       "importWithoutConflict": "Importuoti pastabas, neturinčias konfliktų",
@@ -134,7 +134,7 @@
     },
     "cancel": "Nutraukti",
     "deleteAnnotations": "Šalinti pastabas?",
-    "deleteAnnotationsText": "Ar norite pašalinti {{- annotationListLength}} pastabą(-as, -ų)?",
+    "deleteAnnotationsText": "Ar norite pašalinti {{- count}} pastabą(-as, -ų)?",
     "deleteFeed": "Ar tikrai norite pašalinti šį katalogą?",
     "deletePublication": "Ar tikrai norite pašalinti šį leidinį?",
     "import": "Ar tikrai norite importuoti šiuos failus:",
@@ -432,7 +432,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} atitikmuo(-ys, -ų)",
+        "founds": "{{- count}} atitikmuo(-ys, -ų)",
         "input": "ieškomas tekstas",
         "next": "Kitas",
         "notFound": "atitikmenų nėra",

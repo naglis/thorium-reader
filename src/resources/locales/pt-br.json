@@ -432,7 +432,7 @@
     },
     "picker": {
       "search": {
-        "founds": "{{- nResults}} correspondência(s)",
+        "founds": "{{- count}} correspondência(s)",
         "input": "texto para correspondência",
         "next": "Próximo",
         "notFound": "sem correspondências",
